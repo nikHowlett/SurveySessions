@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Sixth Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="sixthInterfaceController" customModule="thirdSurvey_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Hello, please share with us how you felt about your Session." numberOfLines="6" id="qRm-un-cTG"/>
+                        <button width="1" alignment="left" title="Take Survey" id="eBd-Ek-ffH">
+                            <connections>
+                                <segue destination="Brf-oc-Riz" kind="push" id="M8F-9z-Mri"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="347"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="thirdSurvey_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Third Interface Controller-->
+        <scene sceneID="4Oy-zT-3nF">
+            <objects>
+                <controller id="Brf-oc-Riz" customClass="thirdInterfaceController" customModule="thirdSurvey_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="From 1-5, how would you rate your presenter's engagement?" numberOfLines="5" id="bFo-T5-pfP"/>
+                        <slider width="1" alignment="left" value="3" maximum="5" steps="5" id="USd-4Q-KxN">
+                            <connections>
+                                <action selector="fun:" destination="Brf-oc-Riz" id="cjF-Es-NuM"/>
+                            </connections>
+                        </slider>
+                        <label width="136" height="43" alignment="left" text="Good" textAlignment="center" numberOfLines="2" id="R7T-SW-PyV"/>
+                        <button width="1" alignment="left" title="Next" id="VI7-Gv-dbj">
+                            <connections>
+                                <segue destination="Iks-U3-1ov" kind="push" id="vom-EW-2SI"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="thisAlabeel" destination="R7T-SW-PyV" id="Je0-V1-SlD"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="456" y="358"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="thirdSurvey_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="KV7-RH-QQn">
+            <objects>
+                <controller hidesWhenLoading="NO" id="NCv-Qf-VT8">
+                    <items>
+                        <label alignment="left" text="Hello \name, please share with us how you felt about \meetingName." numberOfLines="6" id="Kb3-xN-qSB"/>
+                        <button width="1" alignment="left" title="Take Survey" id="arh-wu-Oa0">
+                            <connections>
+                                <segue destination="Ujs-6Z-9f2" kind="push" id="Xuv-r8-xtV"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Chose Session" id="J9b-xq-hl5"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="272" y="-324"/>
+        </scene>
+        <!--First Question Interface Controller-->
+        <scene sceneID="zB9-KH-Lw4">
+            <objects>
+                <controller hidesWhenLoading="NO" id="Ujs-6Z-9f2" customClass="firstQuestionInterfaceController" customModule="surveysbeacons2_WatchKit_1_Extension">
+                    <items>
+                        <label alignment="left" text="Did you find this session beneficial?" numberOfLines="4" id="SMJ-rn-0Sq"/>
+                        <group width="133" alignment="left" id="gIJ-Yb-MPl">
+                            <items>
+                                <button width="65" alignment="left" title="Yes" id="Ydl-HC-0di">
+                                    <connections>
+                                        <segue destination="TT4-m3-bgv" kind="push" id="om0-UU-lXN"/>
+                                    </connections>
+                                </button>
+                                <button width="68" alignment="left" title="No" id="ojA-lt-O9x">
+                                    <connections>
+                                        <segue destination="TT4-m3-bgv" kind="push" id="gwk-8a-aL6"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="457" y="110"/>
+        </scene>
+        <!--Second Question Interface Controller-->
+        <scene sceneID="QaC-bh-QCd">
+            <objects>
+                <controller hidesWhenLoading="NO" id="TT4-m3-bgv" customClass="SecondQuestionInterfaceController" customModule="surveysbeacons2_WatchKit_1_Extension">
+                    <items>
+                        <label alignment="left" text="Was the topic relevant to your role/position?" numberOfLines="4" id="moi-wb-6GD"/>
+                        <group width="1" alignment="left" id="1Gr-iz-Vtn">
+                            <items>
+                                <button width="65" alignment="left" title="Yes" id="ow9-Bb-9LI">
+                                    <connections>
+                                        <segue destination="2HM-X2-9cJ" kind="push" id="GOv-UM-kjz"/>
+                                    </connections>
+                                </button>
+                                <button width="68" alignment="left" title="No" id="PTv-SP-QLe">
+                                    <connections>
+                                        <segue destination="2HM-X2-9cJ" kind="push" id="dax-cg-AXc"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="651" y="110"/>
+        </scene>
+        <!--Third Question Interface Controller-->
+        <scene sceneID="ghf-OT-CHA">
+            <objects>
+                <controller hidesWhenLoading="NO" id="2HM-X2-9cJ" customClass="thirdQuestionInterfaceController" customModule="surveysbeacons2_WatchKit_1_Extension">
+                    <items>
+                        <label alignment="left" text="From 1-5, how would you rate your presenter's engagement?" numberOfLines="5" id="tYp-jr-gJW"/>
+                        <slider width="1" alignment="left" value="3" maximum="5" steps="5" id="GAu-nl-4ph">
+                            <connections>
+                                <action selector="f:" destination="2HM-X2-9cJ" id="V6i-QO-HSd"/>
+                            </connections>
+                        </slider>
+                        <label alignment="left" text="Good" id="bbn-JS-fXj"/>
+                        <button width="1" alignment="left" title="Submit" id="Fmv-jJ-O0d"/>
+                    </items>
+                    <connections>
+                        <outlet property="thisALabel" destination="bbn-JS-fXj" id="f8e-V1-PZT"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="845" y="12.5"/>
+        </scene>
+        <!--Last Question Interface Controller-->
+        <scene sceneID="bMS-Bs-QZA">
+            <objects>
+                <controller hidesWhenLoading="NO" id="Ax9-Ry-jgZ" customClass="LastQuestionInterfaceController" customModule="surveysbeacons2_WatchKit_1_Extension">
+                    <items>
+                        <label alignment="left" numberOfLines="20" id="lgj-4N-fxK">
+                            <string key="text">Thank you for taking the time to take this survey and submit your results. Your data will be utilized constructively to make future meetings the best they can possibly be. UCB; Inspired by Patients, Driven by Science</string>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="813" y="-374"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="KZp-5S-8sC">
+            <objects>
+                <controller id="fsr-gD-4Eq">
+                    <items>
+                        <table alignment="left" id="3w9-5Q-Y08">
+                            <items>
+                                <tableRow id="2wo-On-nwM">
+                                    <group key="rootItem" width="1" alignment="left" id="VHj-MO-MXM"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="457" y="-331"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Ac6-Xc-CWT">
+            <objects>
+                <controller id="2uF-fY-Pbc">
+                    <items>
+                        <label alignment="left" text="Did you find this session beneficial?" numberOfLines="4" id="XPz-Ey-U9p"/>
+                        <group width="133" alignment="left" id="F24-Jo-LO3">
+                            <items>
+                                <button width="65" alignment="left" title="Yes" id="Noo-Ht-Dnt">
+                                    <connections>
+                                        <segue destination="sh8-g8-nIV" kind="push" identifier="1y" id="T32-We-f8O"/>
+                                    </connections>
+                                </button>
+                                <button width="68" alignment="left" title="No" id="5ee-vI-rmU">
+                                    <connections>
+                                        <segue destination="sh8-g8-nIV" kind="push" identifier="1n" id="UMb-f9-7vd"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1022" y="657"/>
+        </scene>
+        <!--Fifth Interface Controller-->
+        <scene sceneID="Pwf-tN-v01">
+            <objects>
+                <controller id="p7U-b4-blz" customClass="fifthInterfaceController" customModule="thirdSurvey_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="MzB-92-F9l">
+                            <items>
+                                <tableRow id="Dsc-b9-eZh">
+                                    <group key="rootItem" width="1" alignment="left" id="AI0-rq-ESZ">
+                                        <items>
+                                            <label alignment="left" text="Session 1" id="e6z-up-a7S"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="237-We-oUE" kind="push" identifier="SessionDeets" id="2gV-Fj-KG4"/>
+                                        </connections>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="455" y="611"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="hqs-aI-JRw">
+            <objects>
+                <controller id="237-We-oUE">
+                    <items>
+                        <label alignment="left" text="You have selected: " numberOfLines="2" id="1VY-yb-D2Z"/>
+                        <label alignment="left" text="--- Meeting which will take place @ --- in the ---." numberOfLines="4" id="c7Z-cC-hth"/>
+                        <label alignment="left" text="Is this Correct?" id="Nd5-9X-1Eb"/>
+                        <group width="1" alignment="left" id="Sgl-BN-98h">
+                            <items>
+                                <button width="65" alignment="left" title="Yes" id="BcO-0B-nL0"/>
+                                <button width="66" alignment="left" title="No" id="rB3-J7-qHq"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="651" y="618.75"/>
+        </scene>
+        <!--Emojis-->
+        <scene sceneID="bN6-SI-ojW">
+            <objects>
+                <controller id="Iks-U3-1ov" customClass="emojis" customModule="thirdSurvey_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Which face/emotion best describes how you felt during/about the presentation?" numberOfLines="6" id="za1-QC-ich"/>
+                        <slider width="1" alignment="left" value="3" maximum="5" steps="5" id="Qns-w3-BXP">
+                            <connections>
+                                <action selector="f:" destination="Iks-U3-1ov" id="wxE-Eh-vkJ"/>
+                            </connections>
+                        </slider>
+                        <label width="136" alignment="left" text="😊" textAlignment="center" id="UZn-G9-59h"/>
+                        <button width="1" alignment="left" title="Submit" id="Ivv-Qa-kAP">
+                            <connections>
+                                <segue destination="dkX-hO-9MN" kind="push" id="VjG-nO-D8u"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="thisALabel" destination="UZn-G9-59h" id="GwR-eW-Xcp"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="651" y="346.5"/>
+        </scene>
+        <!--Fourth Interface Controller-->
+        <scene sceneID="F7X-jG-gu4">
+            <objects>
+                <controller id="dkX-hO-9MN" customClass="fourthInterfaceController" customModule="thirdSurvey_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" numberOfLines="21" id="wfM-dw-i1i">
+                            <string key="text">Thank you for taking the time to take this survey and submit your results. Your data will be utilized constructively to make future sessions the best they can possibly be.</string>
+                        </label>
+                        <label alignment="center" text=" UCB " id="h0j-dX-oce"/>
+                        <label alignment="left" text="Inspired by Patients, Driven by Science" numberOfLines="3" id="oq9-mx-it7"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="845" y="347"/>
+        </scene>
+        <!--Second Interface Controller-->
+        <scene sceneID="5HY-Vz-Wkw">
+            <objects>
+                <controller id="sh8-g8-nIV" customClass="secondInterfaceController" customModule="thirdSurvey_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Was the topic relevant to your role/position?" numberOfLines="4" id="8D9-ak-68M"/>
+                        <group width="1" alignment="left" id="nng-ay-gs6">
+                            <items>
+                                <button width="65" alignment="left" title="Yes" id="b51-Xf-tdg">
+                                    <connections>
+                                        <segue destination="PBo-aJ-yYm" kind="push" identifier="2y" id="1Ya-2K-m3x"/>
+                                    </connections>
+                                </button>
+                                <button width="68" alignment="left" title="No" id="iHp-lN-Hho">
+                                    <connections>
+                                        <segue destination="PBo-aJ-yYm" kind="push" identifier="2n" id="oTT-mt-cMf"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="845" y="672"/>
+        </scene>
+        <!--Third Interface Controller-->
+        <scene sceneID="98e-n5-tf4">
+            <objects>
+                <controller id="PBo-aJ-yYm" customClass="thirdInterfaceController" customModule="thirdSurvey_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="From 1-5, how would you rate your presenter's engagement?" numberOfLines="5" id="wR6-st-MQr"/>
+                        <slider width="1" alignment="left" value="3" maximum="5" steps="5" id="Wff-Qz-JDC">
+                            <connections>
+                                <action selector="f:" destination="PBo-aJ-yYm" id="0ig-8D-qAl"/>
+                            </connections>
+                        </slider>
+                        <label alignment="left" text="Good" id="RBg-We-fof"/>
+                        <button width="1" alignment="left" title="Submit" id="i83-sk-8Bq">
+                            <connections>
+                                <segue destination="WNs-UE-Psd" kind="push" id="RdM-bb-xLz"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="thisALabel" destination="RBg-We-fof" id="nrS-Jo-0nj"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1022" y="403.5"/>
+        </scene>
+        <!--Fourth Interface Controller-->
+        <scene sceneID="6Pi-rb-CPx">
+            <objects>
+                <controller id="WNs-UE-Psd" customClass="fourthInterfaceController" customModule="thirdSurvey_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" numberOfLines="21" id="JpK-iS-If3">
+                            <string key="text">Thank you for taking the time to take this survey and submit your results. Your data will be utilized constructively to make future sessions the best they can possibly be.</string>
+                        </label>
+                        <label alignment="center" text=" UCB " id="Z3w-31-ilJ"/>
+                        <label alignment="left" text="Inspired by Patients, Driven by Science" numberOfLines="3" id="V1Z-Oa-hOQ"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1022" y="69"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="KBd-kr-SKu">
+            <objects>
+                <controller hidesWhenLoading="NO" id="BwX-bg-mcg">
+                    <items>
+                        <label alignment="left" text="You have selected: " numberOfLines="2" id="GDP-NO-ldz"/>
+                        <label alignment="left" text="--- Meeting which will take place @ --- in the ---." numberOfLines="4" id="oli-9D-wp9"/>
+                        <label alignment="left" text="Is this Correct?" id="tWW-Zb-OxD"/>
+                        <group width="1" alignment="left" id="vbi-Ew-zQd">
+                            <items>
+                                <button width="65" alignment="left" title="Yes" id="MUv-xq-JHe"/>
+                                <button width="66" alignment="left" title="No" id="MjF-3t-z98"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="623" y="-323.25"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="T32-We-f8O"/>
+        <segue reference="1Ya-2K-m3x"/>
+        <segue reference="om0-UU-lXN"/>
+        <segue reference="dax-cg-AXc"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01F97AB1B5FE8D7007A7841 /* sixthInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F97AA1B5FE8D7007A7841 /* sixthInterfaceController.swift */; };
+		D01F97AD1B5FECCC007A7841 /* AttTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F97AC1B5FECCC007A7841 /* AttTableViewController.swift */; };
+		D01F97AF1B60358E007A7841 /* resultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F97AE1B60358E007A7841 /* resultsViewController.swift */; };
+		D029C57E1B6276290002CCD3 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D029C57D1B6276290002CCD3 /* ActivityViewController.swift */; };
+		D029C5811B6294C70002CCD3 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D029C5801B6294C70002CCD3 /* Activity.swift */; };
+		D029C5831B62CCE10002CCD3 /* ActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D029C5821B62CCE10002CCD3 /* ActivitiesTableViewController.swift */; };
 		D05920751B5EC11D002CCAC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05920741B5EC11D002CCAC5 /* AppDelegate.swift */; };
 		D05920781B5EC11D002CCAC5 /* thirdSurvey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D05920761B5EC11D002CCAC5 /* thirdSurvey.xcdatamodeld */; };
 		D059207A1B5EC11D002CCAC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05920791B5EC11D002CCAC5 /* ViewController.swift */; };
@@ -14,6 +20,27 @@
 		D059207F1B5EC11D002CCAC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D059207E1B5EC11D002CCAC5 /* Images.xcassets */; };
 		D05920821B5EC11D002CCAC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05920801B5EC11D002CCAC5 /* LaunchScreen.xib */; };
 		D059208E1B5EC11D002CCAC5 /* thirdSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059208D1B5EC11D002CCAC5 /* thirdSurveyTests.swift */; };
+		D05920A31B5EC1E2002CCAC5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05920A21B5EC1E2002CCAC5 /* NotificationController.swift */; };
+		D05920A51B5EC1E2002CCAC5 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05920A41B5EC1E2002CCAC5 /* GlanceController.swift */; };
+		D05920A71B5EC1E2002CCAC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05920A61B5EC1E2002CCAC5 /* Images.xcassets */; };
+		D05920AB1B5EC1E2002CCAC5 /* thirdSurvey WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D05920AA1B5EC1E2002CCAC5 /* thirdSurvey WatchKit App.app */; };
+		D05920B31B5EC1E2002CCAC5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05920B11B5EC1E2002CCAC5 /* Interface.storyboard */; };
+		D05920B51B5EC1E2002CCAC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05920B41B5EC1E2002CCAC5 /* Images.xcassets */; };
+		D05920B81B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D059209B1B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D05920C11B5EC203002CCAC5 /* UCBEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05920C01B5EC203002CCAC5 /* UCBEmployee.swift */; };
+		D05920C31B5EC211002CCAC5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05920C21B5EC211002CCAC5 /* Session.swift */; };
+		D05920C51B5EC6E2002CCAC5 /* MeetingChoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05920C41B5EC6E2002CCAC5 /* MeetingChoiceController.swift */; };
+		D05920C71B5ECAD0002CCAC5 /* MeetingConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05920C61B5ECAD0002CCAC5 /* MeetingConfirmationController.swift */; };
+		D05E80FA1B5ED6E400A80D3C /* PresenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E80F91B5ED6E400A80D3C /* PresenterViewController.swift */; };
+		D05E80FC1B5EE68600A80D3C /* AtendeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E80FB1B5EE68600A80D3C /* AtendeeViewController.swift */; };
+		D05E80FE1B5FDE8E00A80D3C /* firstInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E80FD1B5FDE8E00A80D3C /* firstInterfaceController.swift */; };
+		D05E81001B5FDE9500A80D3C /* secondInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E80FF1B5FDE9500A80D3C /* secondInterfaceController.swift */; };
+		D05E81021B5FDE9D00A80D3C /* thirdInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E81011B5FDE9D00A80D3C /* thirdInterfaceController.swift */; };
+		D05E81041B5FDEA400A80D3C /* fourthInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E81031B5FDEA400A80D3C /* fourthInterfaceController.swift */; };
+		D05E81061B5FDED000A80D3C /* fifthInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E81051B5FDED000A80D3C /* fifthInterfaceController.swift */; };
+		D05E81081B5FDEEF00A80D3C /* sendables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E81071B5FDEEF00A80D3C /* sendables.swift */; };
+		D0C094E11B6133F000367D60 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C094E01B6133F000367D60 /* Results.swift */; };
+		D0C094E31B6165BA00367D60 /* emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C094E21B6165BA00367D60 /* emojis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +51,44 @@
 			remoteGlobalIDString = D059206E1B5EC11D002CCAC5;
 			remoteInfo = thirdSurvey;
 		};
+		D05920AC1B5EC1E2002CCAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05920671B5EC11D002CCAC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05920A91B5EC1E2002CCAC5;
+			remoteInfo = "thirdSurvey WatchKit App";
+		};
+		D05920B61B5EC1E2002CCAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05920671B5EC11D002CCAC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D059209A1B5EC1E2002CCAC5;
+			remoteInfo = "thirdSurvey WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D05920BF1B5EC1E2002CCAC5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D05920B81B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D01F97AA1B5FE8D7007A7841 /* sixthInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sixthInterfaceController.swift; sourceTree = "<group>"; };
+		D01F97AC1B5FECCC007A7841 /* AttTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttTableViewController.swift; sourceTree = "<group>"; };
+		D01F97AE1B60358E007A7841 /* resultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultsViewController.swift; sourceTree = "<group>"; };
+		D029C57D1B6276290002CCD3 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		D029C57F1B6286BC0002CCD3 /* thirdSurvey WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "thirdSurvey WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		D029C5801B6294C70002CCD3 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		D029C5821B62CCE10002CCD3 /* ActivitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewController.swift; sourceTree = "<group>"; };
 		D059206F1B5EC11D002CCAC5 /* thirdSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thirdSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05920731B5EC11D002CCAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D05920741B5EC11D002CCAC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +100,31 @@
 		D05920871B5EC11D002CCAC5 /* thirdSurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thirdSurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D059208C1B5EC11D002CCAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D059208D1B5EC11D002CCAC5 /* thirdSurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdSurveyTests.swift; sourceTree = "<group>"; };
+		D059209B1B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "thirdSurvey WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059209E1B5EC1E2002CCAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D059209F1B5EC1E2002CCAC5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D05920A21B5EC1E2002CCAC5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D05920A41B5EC1E2002CCAC5 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		D05920A61B5EC1E2002CCAC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D05920AA1B5EC1E2002CCAC5 /* thirdSurvey WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thirdSurvey WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05920B01B5EC1E2002CCAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05920B21B5EC1E2002CCAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D05920B41B5EC1E2002CCAC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D05920C01B5EC203002CCAC5 /* UCBEmployee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCBEmployee.swift; sourceTree = "<group>"; };
+		D05920C21B5EC211002CCAC5 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		D05920C41B5EC6E2002CCAC5 /* MeetingChoiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingChoiceController.swift; sourceTree = "<group>"; };
+		D05920C61B5ECAD0002CCAC5 /* MeetingConfirmationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingConfirmationController.swift; sourceTree = "<group>"; };
+		D05E80F91B5ED6E400A80D3C /* PresenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterViewController.swift; sourceTree = "<group>"; };
+		D05E80FB1B5EE68600A80D3C /* AtendeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtendeeViewController.swift; sourceTree = "<group>"; };
+		D05E80FD1B5FDE8E00A80D3C /* firstInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstInterfaceController.swift; sourceTree = "<group>"; };
+		D05E80FF1B5FDE9500A80D3C /* secondInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondInterfaceController.swift; sourceTree = "<group>"; };
+		D05E81011B5FDE9D00A80D3C /* thirdInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdInterfaceController.swift; sourceTree = "<group>"; };
+		D05E81031B5FDEA400A80D3C /* fourthInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourthInterfaceController.swift; sourceTree = "<group>"; };
+		D05E81051B5FDED000A80D3C /* fifthInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fifthInterfaceController.swift; sourceTree = "<group>"; };
+		D05E81071B5FDEEF00A80D3C /* sendables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sendables.swift; sourceTree = "<group>"; };
+		D0C094E01B6133F000367D60 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		D0C094E21B6165BA00367D60 /* emojis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emojis.swift; sourceTree = "<group>"; };
+		D0C094E61B616D0000367D60 /* thirdSurvey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = thirdSurvey.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +142,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D05920981B5EC1E2002CCAC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +157,8 @@
 			children = (
 				D05920711B5EC11D002CCAC5 /* thirdSurvey */,
 				D059208A1B5EC11D002CCAC5 /* thirdSurveyTests */,
+				D059209C1B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension */,
+				D05920AE1B5EC1E2002CCAC5 /* thirdSurvey WatchKit App */,
 				D05920701B5EC11D002CCAC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +168,8 @@
 			children = (
 				D059206F1B5EC11D002CCAC5 /* thirdSurvey.app */,
 				D05920871B5EC11D002CCAC5 /* thirdSurveyTests.xctest */,
+				D059209B1B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension.appex */,
+				D05920AA1B5EC1E2002CCAC5 /* thirdSurvey WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,8 +177,21 @@
 		D05920711B5EC11D002CCAC5 /* thirdSurvey */ = {
 			isa = PBXGroup;
 			children = (
+				D0C094E61B616D0000367D60 /* thirdSurvey.entitlements */,
 				D05920741B5EC11D002CCAC5 /* AppDelegate.swift */,
+				D05920C21B5EC211002CCAC5 /* Session.swift */,
 				D05920791B5EC11D002CCAC5 /* ViewController.swift */,
+				D029C57D1B6276290002CCD3 /* ActivityViewController.swift */,
+				D05E80F91B5ED6E400A80D3C /* PresenterViewController.swift */,
+				D029C5821B62CCE10002CCD3 /* ActivitiesTableViewController.swift */,
+				D01F97AC1B5FECCC007A7841 /* AttTableViewController.swift */,
+				D0C094E01B6133F000367D60 /* Results.swift */,
+				D05E80FB1B5EE68600A80D3C /* AtendeeViewController.swift */,
+				D05920C01B5EC203002CCAC5 /* UCBEmployee.swift */,
+				D029C5801B6294C70002CCD3 /* Activity.swift */,
+				D01F97AE1B60358E007A7841 /* resultsViewController.swift */,
+				D05920C41B5EC6E2002CCAC5 /* MeetingChoiceController.swift */,
+				D05920C61B5ECAD0002CCAC5 /* MeetingConfirmationController.swift */,
 				D059207B1B5EC11D002CCAC5 /* Main.storyboard */,
 				D059207E1B5EC11D002CCAC5 /* Images.xcassets */,
 				D05920801B5EC11D002CCAC5 /* LaunchScreen.xib */,
@@ -115,6 +226,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D059209C1B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D029C57F1B6286BC0002CCD3 /* thirdSurvey WatchKit Extension.entitlements */,
+				D05920A21B5EC1E2002CCAC5 /* NotificationController.swift */,
+				D05E80FD1B5FDE8E00A80D3C /* firstInterfaceController.swift */,
+				D05E80FF1B5FDE9500A80D3C /* secondInterfaceController.swift */,
+				D0C094E21B6165BA00367D60 /* emojis.swift */,
+				D05E81011B5FDE9D00A80D3C /* thirdInterfaceController.swift */,
+				D01F97AA1B5FE8D7007A7841 /* sixthInterfaceController.swift */,
+				D05E81031B5FDEA400A80D3C /* fourthInterfaceController.swift */,
+				D05E81051B5FDED000A80D3C /* fifthInterfaceController.swift */,
+				D05E81071B5FDEEF00A80D3C /* sendables.swift */,
+				D05920A41B5EC1E2002CCAC5 /* GlanceController.swift */,
+				D05920A61B5EC1E2002CCAC5 /* Images.xcassets */,
+				D059209D1B5EC1E2002CCAC5 /* Supporting Files */,
+			);
+			path = "thirdSurvey WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D059209D1B5EC1E2002CCAC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D059209E1B5EC1E2002CCAC5 /* Info.plist */,
+				D059209F1B5EC1E2002CCAC5 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D05920AE1B5EC1E2002CCAC5 /* thirdSurvey WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D05920B11B5EC1E2002CCAC5 /* Interface.storyboard */,
+				D05920B41B5EC1E2002CCAC5 /* Images.xcassets */,
+				D05920AF1B5EC1E2002CCAC5 /* Supporting Files */,
+			);
+			path = "thirdSurvey WatchKit App";
+			sourceTree = "<group>";
+		};
+		D05920AF1B5EC1E2002CCAC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05920B01B5EC1E2002CCAC5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +283,12 @@
 				D059206B1B5EC11D002CCAC5 /* Sources */,
 				D059206C1B5EC11D002CCAC5 /* Frameworks */,
 				D059206D1B5EC11D002CCAC5 /* Resources */,
+				D05920BF1B5EC1E2002CCAC5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D05920B71B5EC1E2002CCAC5 /* PBXTargetDependency */,
 			);
 			name = thirdSurvey;
 			productName = thirdSurvey;
@@ -153,21 +313,80 @@
 			productReference = D05920871B5EC11D002CCAC5 /* thirdSurveyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D059209A1B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05920BC1B5EC1E2002CCAC5 /* Build configuration list for PBXNativeTarget "thirdSurvey WatchKit Extension" */;
+			buildPhases = (
+				D05920971B5EC1E2002CCAC5 /* Sources */,
+				D05920981B5EC1E2002CCAC5 /* Frameworks */,
+				D05920991B5EC1E2002CCAC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05920AD1B5EC1E2002CCAC5 /* PBXTargetDependency */,
+			);
+			name = "thirdSurvey WatchKit Extension";
+			productName = "thirdSurvey WatchKit Extension";
+			productReference = D059209B1B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D05920A91B5EC1E2002CCAC5 /* thirdSurvey WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05920B91B5EC1E2002CCAC5 /* Build configuration list for PBXNativeTarget "thirdSurvey WatchKit App" */;
+			buildPhases = (
+				D05920A81B5EC1E2002CCAC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "thirdSurvey WatchKit App";
+			productName = "thirdSurvey WatchKit App";
+			productReference = D05920AA1B5EC1E2002CCAC5 /* thirdSurvey WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D05920671B5EC11D002CCAC5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "UCB+nikhowlett";
 				TargetAttributes = {
 					D059206E1B5EC11D002CCAC5 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8MHBGG6X8S;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					D05920861B5EC11D002CCAC5 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = D059206E1B5EC11D002CCAC5;
+					};
+					D059209A1B5EC1E2002CCAC5 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8MHBGG6X8S;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D05920A91B5EC1E2002CCAC5 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8MHBGG6X8S;
 					};
 				};
 			};
@@ -186,6 +405,8 @@
 			targets = (
 				D059206E1B5EC11D002CCAC5 /* thirdSurvey */,
 				D05920861B5EC11D002CCAC5 /* thirdSurveyTests */,
+				D059209A1B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension */,
+				D05920A91B5EC1E2002CCAC5 /* thirdSurvey WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +429,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D05920991B5EC1E2002CCAC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05920AB1B5EC1E2002CCAC5 /* thirdSurvey WatchKit App.app in Resources */,
+				D05920A71B5EC1E2002CCAC5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05920A81B5EC1E2002CCAC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05920B31B5EC1E2002CCAC5 /* Interface.storyboard in Resources */,
+				D05920B51B5EC1E2002CCAC5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -215,9 +454,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05920C31B5EC211002CCAC5 /* Session.swift in Sources */,
+				D01F97AD1B5FECCC007A7841 /* AttTableViewController.swift in Sources */,
+				D029C5811B6294C70002CCD3 /* Activity.swift in Sources */,
+				D05920C71B5ECAD0002CCAC5 /* MeetingConfirmationController.swift in Sources */,
+				D05E80FC1B5EE68600A80D3C /* AtendeeViewController.swift in Sources */,
 				D059207A1B5EC11D002CCAC5 /* ViewController.swift in Sources */,
+				D029C5831B62CCE10002CCD3 /* ActivitiesTableViewController.swift in Sources */,
+				D01F97AF1B60358E007A7841 /* resultsViewController.swift in Sources */,
+				D0C094E11B6133F000367D60 /* Results.swift in Sources */,
+				D05920C51B5EC6E2002CCAC5 /* MeetingChoiceController.swift in Sources */,
+				D029C57E1B6276290002CCD3 /* ActivityViewController.swift in Sources */,
 				D05920751B5EC11D002CCAC5 /* AppDelegate.swift in Sources */,
+				D05920C11B5EC203002CCAC5 /* UCBEmployee.swift in Sources */,
 				D05920781B5EC11D002CCAC5 /* thirdSurvey.xcdatamodeld in Sources */,
+				D05E80FA1B5ED6E400A80D3C /* PresenterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +480,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D05920971B5EC1E2002CCAC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05E81021B5FDE9D00A80D3C /* thirdInterfaceController.swift in Sources */,
+				D05E81001B5FDE9500A80D3C /* secondInterfaceController.swift in Sources */,
+				D05920A31B5EC1E2002CCAC5 /* NotificationController.swift in Sources */,
+				D01F97AB1B5FE8D7007A7841 /* sixthInterfaceController.swift in Sources */,
+				D05E81081B5FDEEF00A80D3C /* sendables.swift in Sources */,
+				D05920A51B5EC1E2002CCAC5 /* GlanceController.swift in Sources */,
+				D05E81041B5FDEA400A80D3C /* fourthInterfaceController.swift in Sources */,
+				D05E80FE1B5FDE8E00A80D3C /* firstInterfaceController.swift in Sources */,
+				D0C094E31B6165BA00367D60 /* emojis.swift in Sources */,
+				D05E81061B5FDED000A80D3C /* fifthInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +504,16 @@
 			isa = PBXTargetDependency;
 			target = D059206E1B5EC11D002CCAC5 /* thirdSurvey */;
 			targetProxy = D05920881B5EC11D002CCAC5 /* PBXContainerItemProxy */;
+		};
+		D05920AD1B5EC1E2002CCAC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05920A91B5EC1E2002CCAC5 /* thirdSurvey WatchKit App */;
+			targetProxy = D05920AC1B5EC1E2002CCAC5 /* PBXContainerItemProxy */;
+		};
+		D05920B71B5EC1E2002CCAC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D059209A1B5EC1E2002CCAC5 /* thirdSurvey WatchKit Extension */;
+			targetProxy = D05920B61B5EC1E2002CCAC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +532,14 @@
 				D05920811B5EC11D002CCAC5 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D05920B11B5EC1E2002CCAC5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05920B21B5EC1E2002CCAC5 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -346,9 +632,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = thirdSurvey/thirdSurvey.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = thirdSurvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -356,9 +646,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = thirdSurvey/thirdSurvey.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = thirdSurvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -396,6 +690,76 @@
 			};
 			name = Release;
 		};
+		D05920BA1B5EC1E2002CCAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = thirdSurvey_WatchKit_Extension;
+				INFOPLIST_FILE = "thirdSurvey WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D05920BB1B5EC1E2002CCAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = thirdSurvey_WatchKit_Extension;
+				INFOPLIST_FILE = "thirdSurvey WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D05920BD1B5EC1E2002CCAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "thirdSurvey WatchKit Extension/thirdSurvey WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "thirdSurvey WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D05920BE1B5EC1E2002CCAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "thirdSurvey WatchKit Extension/thirdSurvey WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "thirdSurvey WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +779,7 @@
 				D05920931B5EC11D002CCAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D05920941B5EC11D002CCAC5 /* Build configuration list for PBXNativeTarget "thirdSurveyTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +788,25 @@
 				D05920961B5EC11D002CCAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05920B91B5EC1E2002CCAC5 /* Build configuration list for PBXNativeTarget "thirdSurvey WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05920BA1B5EC1E2002CCAC5 /* Debug */,
+				D05920BB1B5EC1E2002CCAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05920BC1B5EC1E2002CCAC5 /* Build configuration list for PBXNativeTarget "thirdSurvey WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05920BD1B5EC1E2002CCAC5 /* Debug */,
+				D05920BE1B5EC1E2002CCAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
